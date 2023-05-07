@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css">
+</head>
+<body style="background-color: bisque;">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="/R-removebg-preview.png" height="150" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contract</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div style="margin: 100px;border-radius: 50px;border: 5px solid blue;background-color: aqua;">
+    <div class="container my-5">
+
+        <h1 class="text-center mb-5">Checkout</h1>
+
+        <div class="row">
+
+            <!-- Order Summary -->
+            <div class="col-lg-6">
+
+                <h3>Order Summary</h3>
+
+                <table class="table">
+
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Product 1</td>
+                            <td>$0</td>
+                        </tr>
+                        <tr>
+                            <td>Product 2</td>
+                            <td>$0</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <th>Total</th>
+                            <td>$0</td>
+                        </tr>
+                    </tfoot>
+
+                </table>
+
+            </div>
+
+            <!-- Shipping and Payment Information -->
+            <div class="col-lg-6">
+
+                <h3>Shipping and Payment Information</h3>
+
+                <form>
+
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="address" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="address">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="credit-card" class="form-label">Card Number</label>
+                        <input type="text" class="form-control" id="credit-card">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="expiration" class="form-label">Expiration Date</label>
+                        <input type="text" class="form-control" id="expiration">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="security-code" class="form-label">Security Code</label>
+                        <input type="text" class="form-control" id="security-code">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="shipping-method" class="form-label">Shipping Method</label>
+                        <select class="form-control" id="shipping-method">
+                            <option value="standard">Standard</option>
+                            <option value="expedited">Expedited</option>
+                            <option value="overnight">Overnight</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Place Order</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div>
+    <footer class="container bg-dark text-white h-100" >
+        <div style="display: flex;"  class="footer-wrapper d-flex justify-content-between my-4 p-4">
+            <div>
+                <img src="R.png" width="80px" class="img-fluid" alt="">
+                <p>Edwin Diaz is a software and web technologies <br> engineer,  a life coach trainer who is also a serial .</p>
+            </div>
+        <div>
+            <h3>About</h3>
+            <strong> Home </strong> <br>
+            <strong>Service</strong><br>
+            <strong>Contract </strong><br>
+          </div>
+          <div>
+            <h3>Company</h3>
+            <strong> Why reallyrealistic </strong> <br>
+            <strong>About </strong><br>
+          </div>
+          <div>
+            <h3>Support </h3>
+            <strong> Support Center  </strong> <br>
+            <strong>Feedback </strong><br>
+            <strong>Accesbility</strong><br>
+          </div>
+        </div>
+    </div>
+      </footer>
+    </footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
